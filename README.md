@@ -1,4 +1,4 @@
-# PCO 1.0 – SQM Test Generation Pipeline
+# POC 1.0 – SQM Test Generation Pipeline
 
 This project demonstrates a data ingestion and test generation pipeline:
 
