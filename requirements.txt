@@ -1,0 +1,11 @@
+faiss-cpu
+sentence-transformers
+langchain
+langchain-community
+pydantic
+pyyaml
+transformers
+accelerate
+torch
+ollama
+requests

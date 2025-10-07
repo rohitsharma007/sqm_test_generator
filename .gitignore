@@ -1,0 +1,22 @@
+# Python
+.venv/
+venv/
+.env
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.build/
+# VSCode
+.vscode/
+# macOS
+.DS_Store
+# Java/Maven
+**/target/
+*.class
+# outputs and generated files
+outputs/
+# virtual env package files
+*.whl
+# JetBrains
+.idea/

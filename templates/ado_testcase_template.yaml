@@ -1,0 +1,14 @@
+version: 1
+ado_test_case:
+  title: "<Feature>: <Scenario>"
+  area_path: "Project\\Area"
+  priority: 2
+  steps:
+    - step: "Precondition"
+      expected: "System ready"
+    - step: "Action"
+      expected: "Result"
+  parameters:
+    - name: env
+      values: ["dev", "qa", "prod"]
+  tags: ["automation", "sqm"]
