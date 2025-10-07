@@ -10,4 +10,7 @@
   </parent>
   <artifactId>sqm-web</artifactId>
   <packaging>jar</packaging>
+  <dependencies>
+    <!-- No dependencies for stubbed WebClient -->
+  </dependencies>
 </project>
