@@ -11,16 +11,28 @@ public class WebClient {
         return "CLICK:" + cssSelector;
     }
 
+    public String tryClick(String cssSelector) {
+        return "TRY_CLICK:" + cssSelector + ":MISS";
+    }
+
+    public String tryClickXpath(String xpath) {
+        return "TRY_CLICK_XPATH:" + xpath + ":MISS";
+    }
+
     public String type(String cssSelector, String text) {
         return "TYPE:" + cssSelector + ":" + text;
     }
 
-    public String select(String cssSelector, String value) {
-        return "SELECT:" + cssSelector + ":" + value;
+    public String pressEnter(String cssSelector) {
+        return "ENTER:" + cssSelector;
     }
 
     public String waitForVisible(String cssSelector) {
         return "WAIT_VISIBLE:" + cssSelector;
+    }
+
+    public String waitForVisibleXpath(String xpath) {
+        return "WAIT_VISIBLE_XPATH:" + xpath;
     }
 
     public String assertText(String cssSelector, String expected) {

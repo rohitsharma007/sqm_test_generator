@@ -11,6 +11,6 @@
   <artifactId>sqm-web</artifactId>
   <packaging>jar</packaging>
   <dependencies>
-    <!-- No dependencies for stubbed WebClient -->
+    <!-- No dependencies needed for stubbed web client -->
   </dependencies>
 </project>
