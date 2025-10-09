@@ -9,14 +9,20 @@ public class TestHerokuLogin {
         WebClient web = new WebClient();
         try {
             System.out.println(web.open("https://the-internet.herokuapp.com/login"));
+            sleep(800);
             System.out.println(web.type("#username", "tomsmith"));
             System.out.println(web.type("#password", "SuperSecretPassword!"));
             System.out.println(web.click("button[type='submit']"));
             System.out.println(web.waitForVisible("#flash"));
             System.out.println(web.assertText("#flash", "You logged into a secure area!"));
             System.out.println(web.screenshot("heroku-login-success"));
+            sleep(1200);
         } finally {
             web.quit();
         }
+    }
+
+    private static void sleep(long ms) {
+        try { Thread.sleep(ms); } catch (InterruptedException ignored) {}
     }
 }

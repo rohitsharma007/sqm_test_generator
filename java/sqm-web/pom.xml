@@ -11,6 +11,15 @@
   <artifactId>sqm-web</artifactId>
   <packaging>jar</packaging>
   <dependencies>
-    <!-- No dependencies needed for stubbed web client -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>4.23.0</version>
+    </dependency>
+    <dependency>
+      <groupId>io.github.bonigarcia</groupId>
+      <artifactId>webdrivermanager</artifactId>
+      <version>5.8.0</version>
+    </dependency>
   </dependencies>
 </project>
